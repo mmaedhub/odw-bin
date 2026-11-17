@@ -113,16 +113,16 @@ Compiled `odw` packages for
 systems are
 under the [releases](https://github.com/mmaedhub/odw-bin/releases) tab.
 
-From the system command line
+For macOS on Apple Silicon (for example) install from the system command line with
 
 ```shellscript
 > R CMD INSTALL odw_2.2.8_Darwin_arm64.tgz
 ```
 
-or at the `R` console
+or at the `R` console using
 
 ```R
-> install.packages("odw_2.2.8_Darwin_arm64.tgz", repos = NULL, type = "binary")
+> install.packages("odw_2.2.8_Darwin_arm64.tgz", repos = NULL)
 ```
 
 or interactively from within `R-gui`, `Rstudio` or `R.app`.
